@@ -54,7 +54,7 @@ Pine Script development:
 Screenshots: capture_screenshot → regions: "full", "chart", "strategy_tester"
 Replay: replay_start → replay_step → replay_trade → replay_status → replay_stop
 Batch: batch_run → run action across multiple symbols/timeframes
-Drawing: draw_shape → horizontal_line, trend_line, rectangle, text
+Drawing: draw_shape → lines, rectangle, fib_retracement, long/short_position, fixed_range_volume_profile, anchored_vwap, path (points[]) … · draw_position (entry/stop/target → R) · draw_move · draw_set_properties · draw_set_visible
 Alerts: alert_create, alert_list, alert_delete
 Launch: tv_launch → auto-detect and start TradingView with CDP on any platform
 Panes: pane_list, pane_set_layout (s, 2h, 2v, 4, 6, 8), pane_focus, pane_set_symbol
